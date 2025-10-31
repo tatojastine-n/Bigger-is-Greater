@@ -1,1 +1,2 @@
 # Bigger-is-Greater
+This C# program finds the next lexicographically greater permutation of a given string. The `biggerIsGreater` function works by scanning the string from the end to find the first character that can be increased, then swapping it with the smallest character larger than it to its right, and finally reversing the suffix to get the smallest next permutation. If no such rearrangement is possible, it returns "no answer". The `Main` method reads multiple strings, applies the function, and prints the results.
